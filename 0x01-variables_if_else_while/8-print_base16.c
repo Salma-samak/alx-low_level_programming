@@ -14,7 +14,7 @@ int main(void)
 
 	while (n <= 15)
 	{
-		putchar(n + '0');
+		putchar(n + '0' + '65');
 		n++;
 	}
 	putchar('\n');
