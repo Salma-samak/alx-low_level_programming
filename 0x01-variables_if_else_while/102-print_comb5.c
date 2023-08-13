@@ -21,7 +21,6 @@ int main(void)
 			{
 				putchar((n1 / 10) + 48);
 				putchar((n1 % 10) + 48);
-				putchar('\n');
 				putchar((n2 / 10) + 48);
 				putchar((n2 % 10) + 48);
 
