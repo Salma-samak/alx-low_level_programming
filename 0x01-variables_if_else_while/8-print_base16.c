@@ -11,11 +11,18 @@
 int main(void)
 {
 	int n = 0;
+	char ch = A;
 
-	while (n <= 15)
+	while (n <= 9)
 	{
-		putchar(n + '0' + 'A');
+		putchar(n + '0');
 		n++;
+	}
+
+	while (ch <= 'F')
+	{
+		putchar(ch);
+		ch++;
 	}
 	putchar('\n');
 	return (0);
