@@ -15,7 +15,7 @@ int main(void)
 	while (n <= 15)
 	{
 		putchar(n + '70');
-		ch++;
+		n++;
 	}
 	putchar('\n');
 	return (0);
