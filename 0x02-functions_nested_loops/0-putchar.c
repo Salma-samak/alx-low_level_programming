@@ -8,7 +8,7 @@
  * Return: Always 0 (success)
 */
 
-imt main(void)
+int main(void)
 {
 	char str[] = "-putchar";
 	int ch;
