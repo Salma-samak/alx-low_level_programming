@@ -5,7 +5,7 @@
  *
  * @n: takes number input
  *
- * Return: lastdigit
+ * Return: lastDigit
 */
 
 int print_last_digit(int n)
@@ -13,11 +13,11 @@ int print_last_digit(int n)
 	int lastdigit;
 
 	if (n < 0)
-		lastdigit = -1 * (n % 10);
+		lastDigit = -1 * (n % 10);
 	else
-		lastdigit = n % 10;
+		lastDigit = n % 10;
 
-	putchar(lastdigit + '0');
-	return (lastdigit);
+	putchar(lastDigit + '0');
+	return (lastDigit);
 }
 
