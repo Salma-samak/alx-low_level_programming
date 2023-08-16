@@ -10,9 +10,9 @@
 
 int main(void)
 {
-	int count, sum;
+	int count;
 
-	unsigned long feb1 = 0, feb2 = 1;
+	unsigned long feb1 = 0, feb2 = 1, sum;
 
 	for (count = 0; count < 50; count++)
 	{
