@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int count;
+	int count, sum;
 
 	unsigned long feb1 = 0, feb2 = 1;
 
