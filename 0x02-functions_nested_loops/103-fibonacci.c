@@ -19,12 +19,12 @@ int main(void)
 		if (sum >  4000000)
 			break;
 		if ((sum % 2) == 0)
-			totalsum += sum
+			totalsum += sum;
 
 		fib1 = fib2;
 		fib2 = sum;
 	}
-	printf("%.0f\n", totasum);
+	printf("%.0f\n", totalsum);
 
 	return (0);
 }
