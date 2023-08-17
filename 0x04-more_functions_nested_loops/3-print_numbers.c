@@ -3,17 +3,16 @@
 /**
  * print_numbers - prints the numbers, from 0 to 9
  *
- * @result: input
- *
  * Result: Always o
 */
 
 void print_numbers(void)
 {
-	int result;
+	int num = 0;
 
-	if (result >= 48 && result <= 57)
-		_putchar (result);
-	_putchar ("\n");
-	return (0);
+	do {
+		_putchar (num + 48);
+		num++;
+	} while (num >= 0 && num <= 9)
+	_putchar ('\n');
 }
