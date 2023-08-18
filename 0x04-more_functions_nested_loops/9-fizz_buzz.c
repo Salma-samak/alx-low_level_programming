@@ -1,33 +1,39 @@
 #include "main.h"
 
 /**
- * main - print number 1 - 100 followed by new line
- * numbers that are miltiples of 3 prin fizz
- * numbers that are miltiples of 3 prin buzz
- * numbers that are miltiples of 3  and 5prin fizzbuzz
- * ech number and word to be separated by space
+ * main - print the numbers from 1 to 100 followed by new line
+ * but for multiples of three print fizz
+ * and for multiples of five prints Buzz
  *
  * Return: Always 0
 */
 
 int main(void)
 {
-	int num;
+	int i;
 
-	for (num = 1; num <= 100; num++)
+	for (i = 1; i <= 100; i++)
 	{
-		if (num % 3 == 0 && num % 5 != 0)
+		if (i % 3 == 0 && i % 5 != 0)
 		{
 			printf("Fizz");
 		}
-		else if (num % 5 == 0 && !(num % 3 != 0)
-				printf("BUZZ");
-		else if (num % 3 == 0 && num % 5 == 0)
+		else if (i % 5 == 0 && i % 3 != 0)
+		{
+			printf("Buzz");
+		}
+		else if (i % 3 == 0 && i % 5 == 0)
+		{
 			printf("FizzBuzz");
-		else if (num == 1)
-			printf("%d", num);
+		}
+		else if (i == 1)
+		{
+			printf("%d", i);
+		}
 		else
-			printf(" %d", num);
+		{
+			printf(" %d", i);
+		}
 	}
 	printf("\n");
 	return (0);
