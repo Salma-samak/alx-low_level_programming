@@ -3,8 +3,9 @@
 /**
  * print_diagonal -  draws a diagonal line
  *
- * @n:  the number of times the character \
+ * @n:  the number of times the character (\)
 */
+
 void print_diagonal(int n)
 {
 	int c, i;
