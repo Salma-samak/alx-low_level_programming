@@ -7,6 +7,7 @@
  *
  * Return: 1 if true, 0 if false
 */
+
 int islower(char c)
 {
 	return (c >= 97 && c <= 122);
@@ -38,7 +39,7 @@ int isdelimiter(char c)
  * Return: string with capitalized words
 */
 
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
 	char *ptr = s;
 	int foundDelimit = 1;
