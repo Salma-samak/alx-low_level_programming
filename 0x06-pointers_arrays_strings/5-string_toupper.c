@@ -13,11 +13,11 @@ char *string_toupper(char *str)
 {
 	int n;
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (n = 0; str[n] != '\0'; n++)
 	{
-		if (str[i] >= 97 && str[i] <= 122)
+		if (str[n] >= 97 && str[n] <= 122)
 		{
-			str[i] = str[i] - 32;
+			str[n] = str[n] - 32;
 		}
 	}
 	return (str);
