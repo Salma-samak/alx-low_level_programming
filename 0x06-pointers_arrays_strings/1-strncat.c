@@ -3,8 +3,8 @@
 /**
  *_strncat -  function that concatenates two strings
  *
- * @dest: input pointer 1
- * @src: input pointer 2
+ * @dest: pointer to destanation input
+ * @src: pointer to source input
  * @n: most number of bytes from @src
  *
  * Return: &dest
