@@ -1,7 +1,7 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- *islower - determine whether ascii iis lowercase
+ * islower - determine whether ascii iis lowercase
  *
  * @c: character
  *
