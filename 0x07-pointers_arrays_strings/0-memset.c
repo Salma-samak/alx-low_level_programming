@@ -2,7 +2,7 @@
 
 /**
  * *_memset - function that fills memory with a constant byte
- * @s: pointer input
+ * @*s: pointer input
  * @b: character
  * @n: max type of integer
  * Return: pointer s
