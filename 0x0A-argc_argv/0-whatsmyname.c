@@ -7,9 +7,9 @@
  * Return:0
 */
 
-int main()
+int main(int argc, char const *argv[])
 {
-	(void)args;
+	(void)argc;
 	pritf("%s\n", argv[0]);
 	return (0);
 }
