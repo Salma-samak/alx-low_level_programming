@@ -1,4 +1,4 @@
-#include "main.h" 0
+#include "main.h"
 
 /**
  * *malloc_checked - allocates mamory using malloc and exit if failed
