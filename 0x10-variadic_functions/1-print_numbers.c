@@ -22,8 +22,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	}
 	va_start(ap, n);
 	while (x--)
-		printf("%d%s", va_arg(ap, int)
-				x ? (seperator ? seperator : "") : "\n");
+		printf("%d%s", va_arg(ap, int);
+			x ? (seperator ? seperator : "") : "\n");
 	va_end(ap);
 }
 
