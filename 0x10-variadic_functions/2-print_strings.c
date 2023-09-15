@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 
 /**
- * print_numbers -  function that prints numbers, followed by a new line
+ * print_strings -  function that prints strings, followed by a new line
  *
  * @separator: string separator
  * @n: number of arguments
@@ -10,20 +10,29 @@
  * Retuen: nothing
 */
 
-void print_numbers(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
-	va_list valist;
-	unsigned int i;
+	va_list x;
+	char *str;
+	unsigned int index;
 
-	va_start(valist, n);
+	va_start(strings, n);
 
-	for (i = 0; i < n; i++)
+	for (index = 0; index < n; index++)
 	{
-		printf("%d", va_arg(valist, int));
-		if (separator && i < n - 1)
+		str = va_arg(x, char *);
+
+		if (str == NULL)
+		printf("(nil)");
+
+		else
+		printf("%s", str);
+
+		if (index != (n - 1) && separator != NULL)
 		printf("%s", separator);
 	}
 
 	printf("\n");
-	va_end(valist)
+
+	va_end(x);
 }
